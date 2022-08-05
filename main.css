@@ -1,0 +1,154 @@
+*{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: 'baloo bhai 2', cursive;
+}
+
+
+.slider-body{
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+/* Next / Prev Buttons */
+#next{
+    display: inline-block;
+    font-size: 55px;
+    height: 50vh;
+    /* border: 2px solid black; */
+    border-left: none;
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #2d323e;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-user-select: none;
+    
+}
+
+#prev{
+    display: inline-block;
+    font-size: 55px;
+    height: 50vh;
+    /* border: 2px solid black; */
+    border-right: none;
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #2d323e;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-user-select: none;
+ 
+}
+/* hover State */
+#prev:hover{
+    background-color: #fff;
+    color: #2d323e;
+    transition: 0.4s;
+    box-shadow: -6px 0 40px black;
+    font-size: 75px;
+}
+#next:hover{
+    background-color: #fff;
+    color: #2d323e;
+    transition: 0.4s;
+    box-shadow: +6px 0 40px black;
+    font-size: 75px;
+    /* transform: rotate(360deg); */
+
+
+}
+
+/* Active State */
+#next:active{   
+    transition: 0.0s;
+    justify-content: flex-end;
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+#prev:active{   
+    transition: 0.0s;
+    justify-content: flex-start;
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+/* Text Area */
+#text{
+    display: inline-block;
+    width: 80%;
+    border: 2px solid  black;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 13px  goldenrod;
+    -webkit-user-select: none;
+}
+
+#authorPlace{
+    font-size: 43px;
+    text-align: center;
+    text-transform: capitalize;
+    color: goldenrod;
+}
+
+#quotePlace{
+    font-size: 23px;
+    font-weight: 100;
+    text-align: center;
+    max-width: 80%;
+    padding: 34px 0;
+    height: 8vh;
+    /* border: solid; */
+    /* text-transform:capitalize; */
+}
+
+
+/* //Media Queries */
+@media only screen and (max-width:586px)  {
+    .slider-body{
+        height: 99vh;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    #next{
+        width: 50px;
+        height: 12vh;
+        border-radius: 12px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #prev{
+        width: 50px;
+        height: 12vh;
+        border-radius: 12px;
+        margin-right: 2px;
+        margin-left: 2px;   
+    }
+    #text{
+        width: 70%;
+        height: 90%;
+        border: none;
+    }
+    #quotePlace{
+        font-size: 13px;
+    }
+    #authorPlace{
+        font-size: 14px;
+        margin-top: 26px;
+    }
+    
+}
