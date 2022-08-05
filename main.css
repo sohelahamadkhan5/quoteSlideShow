@@ -169,7 +169,7 @@
 #prev:active{   
     background-color: #fff;
     color: #2d323e;
-    transition: 0.4s;
+    transition: 0.0s;
     box-shadow: -6px 0 40px black;
     font-size: 75px;
     /* transform: rotate(-360deg); */
