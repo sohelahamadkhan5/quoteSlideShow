@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'baloo bhai 2', cursive;
+    -webkit-tap-highlight-color: transparent;
 }
 
 
