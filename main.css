@@ -130,7 +130,7 @@
         border-radius: 12px;
         margin-left: 2px;
         margin-right: 2px;
-        outline: 0 !important;
+        /* outline: 0 !important; */
     }
     #prev{
         width: 50px;
@@ -138,7 +138,7 @@
         border-radius: 12px;
         margin-right: 2px;
         margin-left: 2px; 
-        outline: 0 none !important;  
+        /* outline: 0 none !important;   */
     }
     #text{
         width: 70%;
