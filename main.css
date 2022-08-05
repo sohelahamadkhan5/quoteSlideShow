@@ -130,7 +130,7 @@
         border-radius: 12px;
         margin-left: 2px;
         margin-right: 2px;
-        outline: 0 none;
+        outline: 0 !important;
         pointer-events: none;
     }
     #prev{
@@ -139,7 +139,7 @@
         border-radius: 12px;
         margin-right: 2px;
         margin-left: 2px; 
-        outline: 0 none;  
+        outline: 0 !important;  
         pointer-events: none;
     }
     #text{
