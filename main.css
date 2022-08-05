@@ -143,15 +143,18 @@
     background-color: #2d323e;
     color: #fff;
     font-size: 55px;
-    transition: 0s;
+    /* transition: 0s; */
     box-shadow: none;
+    transition: 0.4s;
+    transform: rotate(-360deg);
 }
 #next:hover{
     background-color: #2d323e;
     color: #fff;
     font-size: 55px;
-    transition: 0s;
+    transition: 0.4s;
     box-shadow: none;
+    transform: rotate(360deg);
 }
 
 /* Active State */
@@ -161,7 +164,7 @@
     transition: 0.4s;
     box-shadow: +6px 0 40px black;
     font-size: 75px;
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
 }
 
 #prev:active{   
@@ -170,7 +173,7 @@
     transition: 0.4s;
     box-shadow: -6px 0 40px black;
     font-size: 75px;
-    transform: rotate(-360deg);
+    /* transform: rotate(-360deg); */
 }
 
 
