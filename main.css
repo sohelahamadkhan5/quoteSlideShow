@@ -131,6 +131,7 @@
         margin-left: 2px;
         margin-right: 2px;
         outline: 0 none;
+        pointer-events: none;
     }
     #prev{
         width: 50px;
@@ -139,6 +140,7 @@
         margin-right: 2px;
         margin-left: 2px; 
         outline: 0 none;  
+        pointer-events: none;
     }
     #text{
         width: 70%;
