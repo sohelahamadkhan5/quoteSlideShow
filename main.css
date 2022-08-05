@@ -71,7 +71,6 @@
     justify-content: flex-end;
     color: goldenrod;
     font-weight: bolder;
-    transform: rotate(-360deg);
 }
 
 #prev:active{   
@@ -79,7 +78,6 @@
     justify-content: flex-start;
     color: goldenrod;
     font-weight: bolder;
-    transform: rotate(360deg);
 }
 
 /* Text Area */
@@ -139,6 +137,43 @@
         margin-left: 2px; 
         /* outline: 0 none !important;   */
     }
+
+    /* hover State */
+#prev:hover{
+    background-color: #2d323e;
+    color: #fff;
+    font-size: 55px;
+    transition: 0s;
+    box-shadow: none;
+}
+#next:hover{
+    background-color: #2d323e;
+    color: #fff;
+    font-size: 55px;
+    transition: 0s;
+    box-shadow: none;
+}
+
+/* Active State */
+#next:active{   
+    background-color: #fff;
+    color: #2d323e;
+    transition: 0.4s;
+    box-shadow: +6px 0 40px black;
+    font-size: 75px;
+    transform: rotate(360deg);
+}
+
+#prev:active{   
+    background-color: #fff;
+    color: #2d323e;
+    transition: 0.4s;
+    box-shadow: -6px 0 40px black;
+    font-size: 75px;
+    transform: rotate(-360deg);
+}
+
+
     #text{
         width: 70%;
         height: 90%;
