@@ -18,7 +18,7 @@ next.onclick = function(){
     let Author = quotes[quoteIndex].Author;
     let quote = quotes[quoteIndex].quote;
 
-    authorPlace.innerHTML = quoteIndex.toString()+" ~ "+Author;
+    authorPlace.innerHTML = " ~ "+Author;
     quotePlace.innerHTML = quote;
     
 };
@@ -34,7 +34,7 @@ prev.onclick = function(){
     let Author = quotes[quoteIndex].Author;
     let quote = quotes[quoteIndex].quote;
 
-    authorPlace.innerHTML = quoteIndex.toString()+" ~ "+Author;
+    authorPlace.innerHTML = " ~ "+Author;
     quotePlace.innerHTML = quote;
 };
 
