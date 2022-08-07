@@ -29,6 +29,7 @@
     cursor: pointer;
     transition: 0.4s;
     -webkit-user-select: none;
+    /* -webkit-user- */
     
 }
 
@@ -47,6 +48,7 @@
     cursor: pointer;
     transition: 0.4s;
     -webkit-user-select: none;
+    /* -webkit-user- */
  
 }
 /* hover State */
